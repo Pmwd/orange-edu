@@ -9,8 +9,7 @@
         <relativePath>../orange-edu-parent</relativePath>
     </parent>
 
-
-    <artifactId>xuecheng-plus-base</artifactId>
+    <artifactId>orange-edu-base</artifactId>
 
     <dependencies>
         <dependency>

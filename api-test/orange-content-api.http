@@ -1,0 +1,12 @@
+###
+POST {{content_host}}/content/course/list?pageNo=2&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "",
+  "publishStatus": ""
+}
+
+<> 2024-02-23T151809.200.json
+<> 2024-02-23T151731.200.json

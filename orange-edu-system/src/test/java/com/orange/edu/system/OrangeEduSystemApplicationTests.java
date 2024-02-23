@@ -1,10 +1,10 @@
-package com.orange.base;
+package com.orange.edu.system;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrangeEduBaseApplicationTests {
+class OrangeEduSystemApplicationTests {
 
     @Test
     void contextLoads() {
