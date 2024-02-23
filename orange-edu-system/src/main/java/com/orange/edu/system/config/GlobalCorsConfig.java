@@ -8,11 +8,6 @@ import org.springframework.web.filter.CorsFilter;
 
 /**
  * 跨域过滤器
- *
- * @author Wuxy
- * @version 1.0
- * @ClassName GlobalCorsConfig
- * @since 2023/1/19 11:58
  */
 @Configuration
 public class GlobalCorsConfig {

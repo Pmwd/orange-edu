@@ -3,6 +3,9 @@ package com.orange.edu.content.service;
 import com.orange.base.model.PageParams;
 import com.orange.base.model.PageResult;
 import com.orange.base.model.dto.QueryCourseParamsDto;
+import com.orange.edu.content.model.dto.AddCourseDto;
+import com.orange.edu.content.model.dto.CourseBaseInfoDto;
+import com.orange.edu.content.model.dto.EditCourseDto;
 import com.orange.edu.content.model.po.CourseBase;
 
 /**
@@ -17,5 +20,12 @@ public interface CourseBaseInfoService  {
  */
   PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
 
+  CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
+
+  CourseBaseInfoDto getCourseBaseInfo(Long courseId);
+
+  public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto);
+
+  void deleteCourseBase(Long companyId, Long courseId);
 }
 

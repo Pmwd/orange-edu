@@ -2,9 +2,9 @@ package com.orange.edu.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xuecheng.system.mapper.DictionaryMapper;
-import com.xuecheng.system.model.po.Dictionary;
-import com.xuecheng.system.service.DictionaryService;
+import com.orange.edu.system.mapper.DictionaryMapper;
+import com.orange.edu.system.model.po.Dictionary;
+import com.orange.edu.system.service.DictionaryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

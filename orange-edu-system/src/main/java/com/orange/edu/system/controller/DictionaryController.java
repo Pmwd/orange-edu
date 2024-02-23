@@ -1,7 +1,8 @@
 package com.orange.edu.system.controller;
 
-import com.xuecheng.system.model.po.Dictionary;
-import com.xuecheng.system.service.DictionaryService;
+
+import com.orange.edu.system.model.po.Dictionary;
+import com.orange.edu.system.service.DictionaryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,7 +23,7 @@ import java.util.List;
 public class DictionaryController  {
 
     @Autowired
-    private DictionaryService  dictionaryService;
+    private DictionaryService dictionaryService;
 
     @GetMapping("/dictionary/all")
     public List<Dictionary> queryAll() {

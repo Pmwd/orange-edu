@@ -1,7 +1,7 @@
 package com.orange.edu.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xuecheng.system.model.po.Dictionary;
+import com.orange.edu.system.model.po.Dictionary;
 
 import java.util.List;
 
