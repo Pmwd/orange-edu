@@ -1,0 +1,38 @@
+#微服务配置
+spring:
+  application:
+    name: media
+  cloud:
+    nacos:
+      server-addr: 192.168.101.65:8848
+      discovery:
+        namespace: dev
+        group: orange-edu
+      config:
+        namespace: dev
+        group: orange-edu
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: orange-edu
+            refresh: true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+  profiles:
+    active: dev
+
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    #    url: jdbc:mysql://127.0.0.1:3306/orange_edu_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+#    #    username: root
+#    #    password: 123456
+#    url: jdbc:mysql://192.168.101.65:3306/orange_media?serverTimezone=UTC&userUnicode=true&useSSL=false&
+#    username: root
+#    password: mysql
+#  # 日志文件配置路径
+#  logging:
+#    config: classpath:log4j2-dev.xml

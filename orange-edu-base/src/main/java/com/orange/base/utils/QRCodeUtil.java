@@ -17,10 +17,6 @@ import java.util.HashMap;
 
 /**
  * 二维码生成工具
- *
- * @author Wuxy
- * @version 1.0
- * @since 2022/10/3 0:03
  */
 public class QRCodeUtil {
     /**

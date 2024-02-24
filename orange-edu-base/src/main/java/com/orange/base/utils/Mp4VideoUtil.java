@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Mp4VideoUtil extends VideoUtil {
 
-    String ffmpeg_path = "D:\\Program Files\\ffmpeg-20180227-fa0c9d6-win64-static\\bin\\ffmpeg.exe";//ffmpeg的安装位置
+    String ffmpeg_path = "D:\\2024\\ffmpeg\\ffmpeg.exe";//ffmpeg的安装位置
     String video_path = "D:\\BaiduNetdiskDownload\\test1.avi";
     String mp4_name = "test1.mp4";
     String mp4folder_path = "D:/BaiduNetdiskDownload/Movies/test1/";
@@ -87,13 +87,13 @@ public class Mp4VideoUtil extends VideoUtil {
 //        builder.command("");
 
         //ffmpeg的路径
-        String ffmpeg_path = "D:\\soft\\ffmpeg\\ffmpeg.exe";//ffmpeg的安装位置
+        String ffmpeg_path = "D:\\2024\\ffmpeg\\ffmpeg.exe";//ffmpeg的安装位置
         //源avi视频的路径
-        String video_path = "D:\\develop\\bigfile_test\\nacos01.avi";
+        String video_path = "D:\\2024\\miniotest\\video\\test01.avi";
         //转换后mp4文件的名称
-        String mp4_name = "nacos01.mp4";
+        String mp4_name = "test01.mp4";
         //转换后mp4文件的路径
-        String mp4_path = "D:\\develop\\bigfile_test\\nacos01.mp4";
+        String mp4_path = "D:\\2024\\miniotest\\video\\test01.mp4";
         //创建工具类对象
         Mp4VideoUtil videoUtil = new Mp4VideoUtil(ffmpeg_path, video_path, mp4_name, mp4_path);
         //开始视频转换，成功将返回success
