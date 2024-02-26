@@ -1,0 +1,72 @@
+2024-02-25 15:26:33,172 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field coursePublishService in com.orange.edu.content.controller.CourseOpenController required a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' in your configuration.
+
+2024-02-25 15:40:53,731 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mqMessageService in com.orange.edu.content.service.impl.CoursePublishServiceImpl required a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' in your configuration.
+
+2024-02-25 15:52:26,405 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mqMessageService in com.orange.edu.content.service.impl.CoursePublishServiceImpl required a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' in your configuration.
+
+2024-02-25 15:53:36,463 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mqMessageService in com.orange.edu.messagesdk.service.MessageProcessAbstract required a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.orange.edu.messagesdk.service.MqMessageService' in your configuration.
+

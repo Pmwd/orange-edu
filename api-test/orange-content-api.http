@@ -149,3 +149,21 @@ Content-Type: application/json
 
 ### 删除课程计划
 DELETE {{content_host}}/content/teachplan/43
+
+
+### 课程计划绑定视频
+POST {{content_host}}/media/teachplan/association/media
+Content-Type: application/json
+
+{
+  "mediaId": "",
+  "fileName": "",
+  "teachplanId": ""
+}
+
+### 测试freemarker
+GET {{content_host}}/content/testfreemarker
+
+
+### 课程发布
+POST {{content_host}}/content/coursepublish/2
