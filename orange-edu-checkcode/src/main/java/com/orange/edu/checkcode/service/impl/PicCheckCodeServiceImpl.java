@@ -1,6 +1,9 @@
 package com.orange.edu.checkcode.service.impl;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
+import com.orange.base.utils.EncryptUtil;
+import com.orange.edu.checkcode.model.CheckCodeParamsDto;
+import com.orange.edu.checkcode.model.CheckCodeResultDto;
 import com.orange.edu.checkcode.service.AbstractCheckCodeService;
 import com.orange.edu.checkcode.service.CheckCodeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +43,8 @@ public class PicCheckCodeServiceImpl extends AbstractCheckCodeService implements
     public void setCheckCodeStore(CheckCodeStore checkCodeStore) {
         this.checkCodeStore = checkCodeStore;
     }
+
+
 
     @Override
     public CheckCodeResultDto generate(CheckCodeParamsDto checkCodeParamsDto) {
