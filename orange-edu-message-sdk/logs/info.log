@@ -1,0 +1,160 @@
+2024-02-25 13:03:28,693 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-02-25 13:03:28,693 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-02-25 13:03:29,592 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-02-25 13:03:29,592 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-02-25 13:03:29,853 INFO [main][GenericScope.java:295] - BeanFactory id=6c0f45f1-25bd-33ee-94fd-333987aa41f7
+2024-02-25 13:03:29,853 INFO [main][GenericScope.java:295] - BeanFactory id=6c0f45f1-25bd-33ee-94fd-333987aa41f7
+2024-02-25 13:03:30,467 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-02-25 13:03:30,467 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-02-25 13:03:30,872 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-02-25 13:03:30,872 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-02-25 13:03:32,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.insert
+2024-02-25 13:03:32,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.insert
+2024-02-25 13:03:32,222 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.delete
+2024-02-25 13:03:32,222 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.delete
+2024-02-25 13:03:32,237 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteByMap
+2024-02-25 13:03:32,237 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteByMap
+2024-02-25 13:03:32,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteById
+2024-02-25 13:03:32,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteById
+2024-02-25 13:03:32,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2024-02-25 13:03:32,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2024-02-25 13:03:32,352 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.update
+2024-02-25 13:03:32,352 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.update
+2024-02-25 13:03:32,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.updateById
+2024-02-25 13:03:32,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.updateById
+2024-02-25 13:03:32,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectById
+2024-02-25 13:03:32,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectById
+2024-02-25 13:03:32,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2024-02-25 13:03:32,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2024-02-25 13:03:32,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectByMap
+2024-02-25 13:03:32,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectByMap
+2024-02-25 13:03:32,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectOne
+2024-02-25 13:03:32,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectOne
+2024-02-25 13:03:32,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectCount
+2024-02-25 13:03:32,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectCount
+2024-02-25 13:03:32,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMaps
+2024-02-25 13:03:32,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMaps
+2024-02-25 13:03:32,444 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2024-02-25 13:03:32,444 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2024-02-25 13:03:32,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectObjs
+2024-02-25 13:03:32,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectObjs
+2024-02-25 13:03:32,491 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectList
+2024-02-25 13:03:32,491 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectList
+2024-02-25 13:03:32,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectPage
+2024-02-25 13:03:32,504 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectPage
+2024-02-25 13:03:32,685 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.insert
+2024-02-25 13:03:32,685 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.insert
+2024-02-25 13:03:32,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.delete
+2024-02-25 13:03:32,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.delete
+2024-02-25 13:03:32,701 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2024-02-25 13:03:32,701 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2024-02-25 13:03:32,705 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2024-02-25 13:03:32,705 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2024-02-25 13:03:32,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-02-25 13:03:32,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-02-25 13:03:32,715 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.update
+2024-02-25 13:03:32,715 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.update
+2024-02-25 13:03:32,719 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2024-02-25 13:03:32,719 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2024-02-25 13:03:32,721 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2024-02-25 13:03:32,721 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2024-02-25 13:03:32,725 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-02-25 13:03:32,725 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-02-25 13:03:32,729 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2024-02-25 13:03:32,729 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2024-02-25 13:03:32,734 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2024-02-25 13:03:32,734 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2024-02-25 13:03:32,739 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2024-02-25 13:03:32,739 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2024-02-25 13:03:32,744 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2024-02-25 13:03:32,744 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2024-02-25 13:03:32,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-02-25 13:03:32,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-02-25 13:03:32,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2024-02-25 13:03:32,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2024-02-25 13:03:32,764 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2024-02-25 13:03:32,764 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2024-02-25 13:03:32,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2024-02-25 13:03:32,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2024-02-25 13:03:33,323 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 6.644 seconds (JVM running for 11.245)
+2024-02-25 13:03:33,323 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 6.644 seconds (JVM running for 11.245)
+2024-02-25 13:08:24,517 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-02-25 13:08:24,517 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-02-25 13:08:25,096 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-02-25 13:08:25,096 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-02-25 13:08:25,246 INFO [main][GenericScope.java:295] - BeanFactory id=6c0f45f1-25bd-33ee-94fd-333987aa41f7
+2024-02-25 13:08:25,246 INFO [main][GenericScope.java:295] - BeanFactory id=6c0f45f1-25bd-33ee-94fd-333987aa41f7
+2024-02-25 13:08:25,610 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-02-25 13:08:25,610 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-02-25 13:08:25,828 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-02-25 13:08:25,828 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-02-25 13:08:26,800 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.insert
+2024-02-25 13:08:26,800 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.insert
+2024-02-25 13:08:26,811 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.delete
+2024-02-25 13:08:26,811 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.delete
+2024-02-25 13:08:26,817 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteByMap
+2024-02-25 13:08:26,817 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteByMap
+2024-02-25 13:08:26,870 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteById
+2024-02-25 13:08:26,870 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteById
+2024-02-25 13:08:26,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2024-02-25 13:08:26,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2024-02-25 13:08:26,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.update
+2024-02-25 13:08:26,891 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.update
+2024-02-25 13:08:26,899 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.updateById
+2024-02-25 13:08:26,899 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.updateById
+2024-02-25 13:08:26,904 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectById
+2024-02-25 13:08:26,904 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectById
+2024-02-25 13:08:26,912 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2024-02-25 13:08:26,912 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2024-02-25 13:08:26,918 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectByMap
+2024-02-25 13:08:26,918 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectByMap
+2024-02-25 13:08:26,929 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectOne
+2024-02-25 13:08:26,929 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectOne
+2024-02-25 13:08:26,938 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectCount
+2024-02-25 13:08:26,938 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectCount
+2024-02-25 13:08:26,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMaps
+2024-02-25 13:08:26,944 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMaps
+2024-02-25 13:08:26,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2024-02-25 13:08:26,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2024-02-25 13:08:26,974 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectObjs
+2024-02-25 13:08:26,974 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectObjs
+2024-02-25 13:08:26,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectList
+2024-02-25 13:08:26,981 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectList
+2024-02-25 13:08:26,988 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectPage
+2024-02-25 13:08:26,988 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageMapper.selectPage
+2024-02-25 13:08:27,200 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.insert
+2024-02-25 13:08:27,200 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.insert
+2024-02-25 13:08:27,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.delete
+2024-02-25 13:08:27,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.delete
+2024-02-25 13:08:27,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2024-02-25 13:08:27,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2024-02-25 13:08:27,222 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2024-02-25 13:08:27,222 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2024-02-25 13:08:27,228 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-02-25 13:08:27,228 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-02-25 13:08:27,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.update
+2024-02-25 13:08:27,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.update
+2024-02-25 13:08:27,241 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2024-02-25 13:08:27,241 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2024-02-25 13:08:27,242 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2024-02-25 13:08:27,242 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2024-02-25 13:08:27,247 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-02-25 13:08:27,247 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-02-25 13:08:27,252 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2024-02-25 13:08:27,252 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2024-02-25 13:08:27,260 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2024-02-25 13:08:27,260 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2024-02-25 13:08:27,267 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2024-02-25 13:08:27,267 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2024-02-25 13:08:27,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2024-02-25 13:08:27,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2024-02-25 13:08:27,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-02-25 13:08:27,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-02-25 13:08:27,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2024-02-25 13:08:27,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2024-02-25 13:08:27,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2024-02-25 13:08:27,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2024-02-25 13:08:27,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2024-02-25 13:08:27,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.orange.edu.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2024-02-25 13:08:27,870 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 4.972 seconds (JVM running for 7.753)
+2024-02-25 13:08:27,870 INFO [main][StartupInfoLogger.java:61] - Started MessageProcessClassTest in 4.972 seconds (JVM running for 7.753)
