@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: search
+  cloud:
+    nacos:
+      server-addr: 192.168.101.65:8848
+      discovery:
+        namespace: ${spring.profiles.active}
+        group: orange-edu
+      config:
+        namespace: ${spring.profiles.active}
+        group: orange-edu
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: orange-edu
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: orange-edu
+            refresh: true
+
+  profiles:
+    active: dev
+#elasticsearch:
+#  hostlist: 192.168.101.65:9200 #多个结点中间用逗号分隔
+#  course:
+#    index: course-publish
+#    source_fields: id,name,grade,mt,st,charge,pic,price,originalPrice,teachmode,validDays,createDate
