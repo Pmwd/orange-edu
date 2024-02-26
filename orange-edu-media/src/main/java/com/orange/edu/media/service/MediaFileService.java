@@ -29,10 +29,10 @@ public interface MediaFileService {
      * @param companyId 机构id
      * @param uploadFileParamsDto 上传文件信息
      * @param localFilePath 文件磁盘路径
+     * @param objectName 对象名
      * @return 文件信息
      */
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
-
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName);
     /**
      * @description 将文件信息添加到文件表
      * @param companyId  机构id
@@ -47,4 +47,15 @@ public interface MediaFileService {
     public File downloadFileFromMinIO(String bucket, String objectName);
 
     public boolean addMediaFilesToMinIO(String localFilePath,String mimeType,String bucket, String objectName);
+
+    /**
+     * 根据 id 查询文件信息
+     *
+     * @param id 文件 id
+     *
+     */
+    MediaFiles getFileById(String id);
+
+
+
 }

@@ -1,7 +1,9 @@
 package com.orange.edu.content.service;
 
+import com.orange.edu.content.model.dto.BindTeachplanMediaDto;
 import com.orange.edu.content.model.dto.SaveTeachplanDto;
 import com.orange.edu.content.model.dto.TeachplanDto;
+import com.orange.edu.content.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -26,5 +28,14 @@ public interface TeachplanService {
     void movedownTeachplan(Long id);
 
     void moveupTeachplan(Long id);
+
+    /**
+     * @description 教学计划绑定媒资
+     * @param bindTeachplanMediaDto
+     *
+     */
+    public TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
+
+    void deleteTeachplanMedia(Long teachPlanId, String mediaId);
 }
 

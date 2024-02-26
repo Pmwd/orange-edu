@@ -8,7 +8,7 @@ public class MinioTest {
 
     static MinioClient minioClient =
             MinioClient.builder()
-                    .endpoint("http://192.168.101.65:9000")
+                    .endpoint("http://192.168.101.65:9001")
                     .credentials("minioadmin", "minioadmin")
                     .build();
 

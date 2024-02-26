@@ -1,5 +1,6 @@
 package com.orange.edu.content.controller;
 
+import com.orange.edu.content.model.dto.BindTeachplanMediaDto;
 import com.orange.edu.content.model.dto.SaveTeachplanDto;
 import com.orange.edu.content.model.dto.TeachplanDto;
 import com.orange.edu.content.service.TeachplanService;
@@ -67,5 +68,22 @@ public class TeachplanController {
     }
 
 
+    @ApiOperation(value = "课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public void associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto){
+        teachplanService.associationMedia(bindTeachplanMediaDto);
+    }
+
+    /**
+     * 课程计划和媒资信息解除绑定
+     *
+     * @param teachPlanId 课程计划id
+     * @param mediaId 媒资id
+     */
+    @ApiOperation(value = "课程计划和媒资信息解除绑定")
+    @DeleteMapping("/teachplan/association/media/{teachPlanId}/{mediaId}")
+    public void deleteTeachplanMedia(@PathVariable Long teachPlanId,@PathVariable String mediaId){
+        teachplanService.deleteTeachplanMedia(teachPlanId,mediaId);
+    }
 }
 

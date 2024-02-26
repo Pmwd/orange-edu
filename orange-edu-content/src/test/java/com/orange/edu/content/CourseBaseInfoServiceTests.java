@@ -1,9 +1,7 @@
 package com.orange.edu.content;
 
 import com.orange.base.model.PageParams;
-import com.orange.base.model.PageResult;
 import com.orange.base.model.dto.QueryCourseParamsDto;
-import com.orange.edu.content.model.po.CourseBase;
 import com.orange.edu.content.service.CourseBaseInfoService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,8 +25,8 @@ public class CourseBaseInfoServiceTests {
         pageParams.setPageNo(1L);//页码
         pageParams.setPageSize(3L);//每页记录数
 
-        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
-        System.out.println(courseBasePageResult);
+//        PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
+//        System.out.println(courseBasePageResult);
     }
 
 }

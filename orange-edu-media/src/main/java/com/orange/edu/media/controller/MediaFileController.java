@@ -42,10 +42,27 @@ public class MediaFileController {
         filedata.transferTo(tempFile);
         //文件路径
         String absolutePath = tempFile.getAbsolutePath();
-        //上传文件
-        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath);
+        //上传文件 todo
+        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath, objectName);
+//        UploadFileResultDto uploadFileResultDto = mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath, null);
 
         return uploadFileResultDto;
+    }
+
+//    @ApiOperation("上传文件")
+//    @RequestMapping(value = "/upload/coursefile",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+//    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
+//                                      @RequestParam(value= "objectName",required=false) String objectName) throws IOException{
+//        //....
+//        return null;
+//    }
+
+
+    @RequestMapping(value = "/say/hello")
+    @ResponseBody
+    public String hello(@RequestBody String s)  {
+        System.out.println("???????????????");
+        return s + "返回成功";
     }
 
 }

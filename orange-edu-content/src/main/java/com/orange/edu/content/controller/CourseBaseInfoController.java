@@ -9,9 +9,11 @@ import com.orange.edu.content.model.dto.CourseBaseInfoDto;
 import com.orange.edu.content.model.dto.EditCourseDto;
 import com.orange.edu.content.model.po.CourseBase;
 import com.orange.edu.content.service.CourseBaseInfoService;
+import com.orange.edu.content.util.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,10 +25,16 @@ public class CourseBaseInfoController {
     CourseBaseInfoService courseBaseInfoService;
 
     @ApiOperation("课程查询接口")
-    @RequestMapping("/course/list")
-    public PageResult<CourseBase> list(PageParams pageParams, @RequestBody(required = false) QueryCourseParamsDto queryCourseParams) {
-        PageResult<CourseBase> pageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParams);
-        return pageResult;
+    @PostMapping("/list")
+    @PreAuthorize("hasAuthority('xc_teachmanager_course_list')") // 拥有课程列表查询的授权方可访问（jwt中保存了UserDetails信息）
+    public PageResult<CourseBase> list(PageParams pageParams, @RequestBody QueryCourseParamsDto queryCourseParams) {
+        // 取出身份
+        SecurityUtil.OeUser user = SecurityUtil.getUser();
+        // 得到机构id
+        assert user != null;
+        Long companyId = user.getCompanyId();
+        // 调用 service 获取数据 （实现细粒度授权，本机构只能查询自己机构的课程列表）
+        return courseBaseInfoService.queryCourseBaseList(companyId, pageParams, queryCourseParams);
     }
 
     @ApiOperation("新增课程基础信息")

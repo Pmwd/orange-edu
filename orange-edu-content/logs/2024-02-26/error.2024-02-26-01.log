@@ -1,0 +1,28 @@
+2024-02-26 01:31:21,353 ERROR [Thread-12][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2024-02-26 01:31:21,967 ERROR [hystrix-media-1][MediaServiceClient.java:40] - 远程调用媒资管理服务上传文件时发生熔断，熔断异常是：Connection pool shut down
+2024-02-26 01:32:27,427 ERROR [hystrix-media-1][MediaServiceClient.java:40] - 远程调用媒资管理服务上传文件时发生熔断，熔断异常是：Connect to localhost:63050 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect executing GET http://localhost:63050/media/upload/coursefile?folder=course&objectName=test.html
+2024-02-26 01:34:04,061 ERROR [hystrix-media-1][MediaServiceClient.java:40] - 远程调用媒资管理服务上传文件时发生熔断，熔断异常是：[404 ] during [GET] to [http://localhost:63050/media/upload/coursefile?folder=course&objectName=test.html] [MediaServiceClient#uploadFile(MultipartFile,String,String)]: [{"timestamp":"2024-02-25T17:34:03.842+00:00","status":404,"error":"Not Found","message":"","path":"/media/upload/coursefile"}]
+2024-02-26 01:46:53,411 ERROR [hystrix-media-1][MediaServiceClient.java:40] - 远程调用媒资管理服务上传文件时发生熔断，熔断异常是：[404 Not Found] during [GET] to [http://localhost:63010/upload/coursefile?folder=course&objectName=test.html] [MediaServiceClient#uploadFile(MultipartFile,String,String)]: [{"timestamp":"2024-02-25T17:46:53.268+00:00","path":"/upload/coursefile","status":404,"error":"Not Found","message":null,"requestId":"68c7a769-1"}]
+2024-02-26 01:48:07,259 ERROR [hystrix-media-1][MediaServiceClient.java:40] - 远程调用媒资管理服务上传文件时发生熔断，熔断异常是：[500 ] during [GET] to [http://media/upload/coursefile?folder=course&objectName=test.html] [MediaServiceClient#uploadFile(MultipartFile,String,String)]: [{"timestamp":"2024-02-25T17:48:07.173+00:00","status":500,"error":"Internal Server Error","message":"","path":"/upload/coursefile"}]
+2024-02-26 01:55:04,803 ERROR [HystrixTimer-1][MediaServiceClient.java:40] - 远程调用媒资管理服务上传文件时发生熔断，熔断异常是：null
